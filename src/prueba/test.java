@@ -17,10 +17,10 @@ public class test {
   @Test
   public void demonstrate() {
 
-    Person señor = new Person(4);
+    Person señor = new Person(45);
 
     assertEquals("hola", señor.decirHola());
-    assertEquals(4, señor.getAge());
+    assertEquals(45, señor.getAge());
   }
 
   public static void main(String[] args) {
